@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #22668a;
+}
+
+.primaryColor {
+  background-color: #22668a;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.category-aktif {
+  color: #ff0000;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 500px;
+  }
+
+  .rowMenu {
+    height: 800px;
+  }
+}
+
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
